@@ -1,0 +1,55 @@
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e4bfbf;
+  }
+  
+  .responsive-container {
+    width: 100%;
+   background-image:linear-gradient(to right, rgba(240, 199, 199, 0), rgb(154, 173, 226),rgb(77, 97, 212));
+  }
+  
+  .line-chart {
+    width: 100%;
+  }
+  .cartesian-grid line {
+    stroke: #eee;
+  }
+  .x-axis text {
+    font-size: 23px;
+    font-family: 'Yellowtail',cursive;
+    fill: #333;
+  }
+  .y-axis text {
+    font-size: 23px;
+    font-family: 'Yellowtail',cursive;
+    fill: #333;
+  }
+
+  .tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .legend {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .line-dots {
+    stroke-width: 2;
+  }
+  
+  .dot-active {
+    r: 8;
+    fill: #FF6347;
+  }
+  
+  .line {
+    stroke: rgb(187, 70, 70);
+    stroke-width: 2;
+  }

@@ -1,0 +1,22 @@
+.bg-image{
+    height: 90vh;
+    width: 100vw;
+  background: linear-gradient(white,white);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+color: aliceblue;
+flex-wrap: wrap;
+}
+h1{
+
+  color:rgb(48, 2, 2);
+
+  justify-content: center;
+}
+.show-graph-button
+{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
